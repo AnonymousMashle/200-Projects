@@ -1,0 +1,25 @@
+body {
+    position: relative;
+  }
+  .blob-primary {
+    position: absolute;
+    z-index: -10;
+    opacity: 40%;
+    right: 100;
+    bottom: 130;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    width: 700px;
+    height: 700px;
+    background-color: var(--bs-primary);
+  }
+  .blob-success {
+    position: absolute;
+    z-index: -11;
+    opacity: 40%;
+    top: 100;
+    left: 130;
+    border-radius: 80% 30% 30% 80% / 50% 40% 60% 50%;
+    width: 700px;
+    height: 700px;
+    background-color: var(--bs-success);
+  }
